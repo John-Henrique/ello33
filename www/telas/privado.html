@@ -1,0 +1,86 @@
+<privado class="app-page">
+    <header class="header-bar">
+    	<button class="btn icon icon-arrow-back pull-left" data-navigation="$previous-page"></button>
+		
+		<img src="" class="circle left perfil" />
+		<a href="" class="btn icon contato info" data-contato-id=""></a>
+         
+
+		<!--
+    	<a class="btn icon icon-telephone pull-right telefone"></a>
+		<button class="btn contato info" data-contato-id="1"></button>
+		-->
+    	<button class="btn icon icon-more-vert pull-right" data-popover-id="opcoes-privado"></button>
+    </header>
+    <div class="content conversa">
+    			
+
+	
+		<div id="mensagens">
+		
+			<!--
+			A ancora precisa ir no inicio da mensagem e não no final
+			-->
+			<div class="padded-full text-right mensagem" id="4000">
+			
+				<div class="row">
+					<div class="column phone-2 tablet-1 large-1 text-center">
+						<img src="img/icones/carrinho.png" class="ddd">
+					</div>
+					
+					<div class="column phone-10 tablet-11 large-11">
+						<p class="padded-right grande">
+							<span class="texto grande">Lista de pedido<br>- lista de itens deste pedido<br>- lista de itens deste pedido<br>- lista de itens deste pedido<br>- lista de itens deste pedido<br>- lista de itens deste pedido<br>- lista de itens deste pedido<br>- lista de itens deste pedido<br>- lista de itens deste pedido<br>- lista de itens deste pedido</span>
+							<span class="hora">20:40</span>
+							<a name="mensagem-4"></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		
+		
+		</div>
+		<div class="padded-full">&nbsp;</div>
+		<div class="padded-full">&nbsp;</div>
+		
+			
+			<div class="circle-progress" id="carregando">
+				<div class="spinner"></div>
+			</div>
+    </div>
+	
+		<a name="recente" style="display:both;"></a>
+	<footer>
+		<table border="0" width="100%" class="area-texto padded-full">
+			<tr>
+				<td>
+					<button class="btn pull-left icon icon-emoji padded-right transparente" data-panel-id="emoji"></button>
+				</td>
+				<td>
+					<input type="text" id="mensagem" placeholder="Digite aqui..." />
+					
+				</td>
+				<td>
+
+			<div class=" input-wrapper upload">
+				<form class="myUpload" action="http://appserverbr.com/wp-json/api/v1/upload" target="iframe" accept="image/*" method="post" enctype="multipart/form-data">
+					<input type="hidden" name="telefone" class="telefone" value="" />
+					<input type="hidden" name="user_id" class="user_id" value="1" />
+					<input type="hidden" name="excluir_comentarios" class="excluir_comentarios" value="" />
+					
+					<input type="file" name="arquivos[]" class="with-label text-center arquivos" />
+                    
+					<a id="btn-fotos" class="btn pull-right icon icon-camera padded-left transparente primary btn-anexar"></a>
+				</form>
+				<iframe name="iframe" class="iframe" style="width:1px; height:1px;"></iframe>
+                
+			</div>
+				
+				<button class="btn pull-right icon icon-enviar padded-left transparente"></button>
+					
+				</td>
+			</tr>
+		</table>
+	</footer>
+	
+</privado>

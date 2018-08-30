@@ -1,0 +1,46 @@
+<criarcontato class="app-page">
+    <header class="header-bar grande">
+    	<button class="btn icon icon-arrow-back pull-left" data-navigation="$previous-page"></button>
+    	<button class="btn icon pull-left">Adicionar contato</button>
+		
+    	<button class="btn icon icon-check pull-right btn-adicionar-contato"></button>
+    </header>
+    <div class="content">
+        <!-- page content goes here -->
+		
+		<div class="row">
+			<div class="column phone-12 tablet-12 card">
+					<ul class="list contato">
+						
+						<li>
+							<a class="pull-left icon icon-usuario"></a>
+							<span class="padded-list">
+								<input type="text" placeholder="Nome" id="nome" class="campo" maxlength="40" required >
+							</span>
+						</li>
+						
+						<li>
+							<a class="pull-left icon icon-telefone"></a>
+							<span class="padded-list">
+								<input type="number" placeholder="Telefone" id="telefone" class="campo" maxlength="12" required >
+							</span>
+						</li>
+						
+					</ul>
+			</div>
+		</div>
+		
+		<div class="row invisivel">
+			<div class="column phone-12 tablet-12 card">
+				<h4>Localização</h4>
+				<p class="rua"></p>
+				<p class="cep"></p>
+				
+				<div id="gmap">gmap</div>
+				<div id="route">route</div>
+			</div>
+		</div>
+		
+		
+    </div>
+</criarcontato>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+		
+		
+		<meta http-equiv="Content-Security-Policy" 
+				 content=" 
+						  img-src * 'self' data: https:;
+						  default-src * gap://ready file:;
+						  style-src * 'self' 'unsafe-inline'; 
+						  script-src * 'unsafe-inline' 'unsafe-eval';">
+
+        <link rel="stylesheet" href="css/phonon.min.css" />
+        <link rel="stylesheet" href="css/whatsapp.css" />
+        <link rel="stylesheet" href="css/emoji.css" />
+        <link rel="stylesheet" href="css/ello33.css" />
+        <link rel="stylesheet" id="css" />
+        <title>Ello33</title>
+    </head>
+    <body>
+		
+		<div class="popover" id="opcoes-geral">
+			<ul class="list">
+				<li><a class="padded-list" href="#!criargrupo">Novo grupo</a></li>
+				<li><a class="padded-list">Status</a></li>
+				<li><a class="padded-list" href="#!configuracoes">Configurações</a></li>
+			</ul>
+		</div>
+		
+		
+		<div class="popover" id="opcoes-privado">
+			<ul class="list">
+				<li><a class="padded-list">Mídia do grupo</a></li>
+				<li><a class="padded-list">Pesquisar</a></li>
+				<li><a class="padded-list">Não silênciar</a></li>
+			</ul>
+		</div>
+		
+		
+		<div id="emoji" class="panel">
+			<header class="header-bar">
+				<a class="btn icon icon-close pull-right" href="#" data-panel-close="true"></a>
+			</header>
+
+			<div class="content padded-fulls text-center">
+				<img src="img/logo.png" class="lista-emoji" />
+			</div>
+		</div>
+		
+		
+        <login 			data-page="true" data-nocache="false" ok></login>
+        <principal 		data-page="true" data-nocache="false" ok></principal>
+        <privado 		data-page="true" data-nocache="false" ok></privado>
+        <contatos 		data-page="true" data-nocache="false" ok></contatos>
+        <criarcontato	data-page="true" data-nocache="false" ok></criarcontato>
+        <perfil 		data-page="true" data-nocache="false" ok></perfil>
+        <grupo 			data-page="true" data-nocache="false" ok></grupo>
+        <criargrupo 	data-page="true" data-nocache="false"></criargrupo>
+        <perfilgrupo 	data-page="true" data-nocache="false" ok></perfilgrupo>
+        <convidar 		data-page="true" data-nocache="false" ok></convidar>
+        <localizacao	data-page="true" data-nocache="false"></localizacao>
+        <reuniao		data-page="true" data-nocache="false"></reuniao>
+        <fornecedor		data-page="true" data-nocache="false"></fornecedor>
+        <favorito		data-page="true" data-nocache="false"></favorito>
+        <ofertas		data-page="true" data-nocache="false"></ofertas>
+        <pedidos		data-page="true" data-nocache="false"></pedidos>
+        <configuracoes	data-page="true" data-nocache="false" ok></configuracoes>
+        <perfilusuario	data-page="true" data-nocache="false"></perfilusuario>
+        <cores			data-page="true" data-nocache="false" ok></cores>
+		
+		<div class="registros">...</div>
+
+
+        <!-- scripts -->
+        <script src="cordova.js"></script>
+        <script src="js/lib/phonon.min.js"></script>
+        <script src="js/lib/jquery.min.js"></script>
+        <script src="js/lib/moment.min.js"></script>
+        <script src="js/lib/moment-with-locales.min.js"></script>
+        <script src="js/lib/jquery.mask.min.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/lib/consulta.js"></script>
+		<script src="js/lib/database.js"></script>
+		<script src="js/funcoes.js"></script>
+		<script src="js/login.js"></script>        <script src="js/eventos.js"></script>
+        <script src="js/lib/mapas.js"></script>
+        <script src="js/lib/firebase-notifications.js"></script>
+        <script src="js/contatos.js"></script>
+        <script src="js/grupos.js"></script>
+        <script src="js/configuracoes.js"></script>
+        <script src="js/cores.js"></script>
+        <script src="js/compartilhar.js"></script>
+        <script src="js/mensagens.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
+        

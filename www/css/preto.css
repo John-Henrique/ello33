@@ -1,0 +1,170 @@
+/**
+	TEMA PRETO
+	
+	2B2B2B
+	FC80AC
+	EF75D7
+	2B2B2B
+*/
+.icon-telefone:before {
+	content:url('../img/icones/icon-telefone.png' );
+}
+.icon-sair:before {
+	content:url('../img/icones/icon-sair.png' );
+}
+.icon-compartilhar:before {
+	content:url('../img/icones/icon-adduser.png' );
+}
+.icon-cores:before {
+	content:url('../img/icones/icon-cores.png' );
+}
+.icon-ajuda:before {
+	content:url('../img/icones/icon-ajuda.png' );
+}
+
+
+
+/*
+ * Header Bars
+ */
+.header-bar {
+  background-color: #2B2B2B;
+  border-bottom: #EF75D7;
+}
+/*
+ * Dialogs
+ */
+.dialog {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px #8a8a8a;
+}
+.tabs .tab-items .tab-item {
+  color: #fff;
+  background-color: #2B2B2B;
+}
+.tabs .tab-indicator {
+  margin-bottom: -3px;
+  height: 3px;
+  background-color: #fff;
+}
+.tabs .tab-items a.tab-item:active, .tabs .tab-items a.tab-item:hover, .tabs .tab-items a.ativo {
+	background-color: #fff;
+	color: #2B2B2B;
+}
+.checkbox :checked + span,
+.radio :checked + span {
+  border-color: #2B2B2B;
+}
+/*
+ * Preloaders
+ */
+.circle-progress {
+  width: 36px;
+  height: 36px;
+  margin-left: -18px;
+}
+.circle-progress.active .spinner {
+  border-top: 3px solid #2B2B2B;
+  border-right: 3px solid #2B2B2B;
+  border-bottom: 3px solid #2B2B2B;
+  border-left: 3px solid #eee;
+  -webkit-animation: circleLoading 900ms infinite linear;
+          animation: circleLoading 900ms infinite linear;
+}
+.circle-progress.primary .spinner {
+  border-top: 3px solid #2B2B2B;
+  border-right: 3px solid #2B2B2B;
+  border-bottom: 3px solid #2B2B2B;
+}
+.circle-progress.negative .spinner {
+  border-top: 3px solid #f40b00;
+  border-right: 3px solid #f40b00;
+  border-bottom: 3px solid #f40b00;
+}
+.circle-progress.positive .spinner {
+  border-top: 3px solid #0ae700;
+  border-right: 3px solid #0ae700;
+  border-bottom: 3px solid #0ae700;
+}
+.progress .determinate {
+  background-color: #2B2B2B;
+}
+.progress.primary .determinate {
+  background-color: #0067b5 !important;
+}
+.progress.negative .determinate {
+  background-color: #c20900 !important;
+}
+.progress.positive .determinate {
+  background-color: #08b500 !important;
+}
+/*
+ * Colors
+ */
+.btn.primary,
+.btn.positive,
+.btn.negative {
+  color: #fff !important;
+}
+.primary {
+  background-color: #2B2B2B !important;
+}
+.primary.btn-flat {
+  color: #2B2B2B !important;
+  background-color: transparent !important;
+}
+.positive {
+  background-color: #0ae700 !important;
+}
+.positive.btn-flat {
+  color: #0ae700 !important;
+  background-color: transparent !important;
+}
+.negative {
+  background-color: #f40b00 !important;
+}
+.negative.btn-flat {
+  color: #f40b00 !important;
+  background-color: transparent !important;
+}
+.light-primary {
+  background-color: #b9d3e7 !important;
+}
+.light-positive {
+  background-color: #bbe7b9 !important;
+}
+.light-negative {
+  background-color: #f4c5c3 !important;
+}
+.dark-primary {
+  background-color: #0067b5 !important;
+}
+.dark-positive {
+  background-color: #08b500 !important;
+}
+.dark-negative {
+  background-color: #c20900 !important;
+}
+/**
+ * Menu lateral
+ */
+.side-panel .header-bar {
+	background:#333;
+	height:200px;
+	padding:20px 15px 15px 15px;
+    color:#fff;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2B2B2B;
+}
+.conversa .text-right p {
+    background-color: #d3d3d3;
+    color: #fff;
+}
+.transparente {
+	background-color:transparent !important;
+}
+.list li .title, .reunioes span.title, .conversas span.title, .clientes span.title {
+    color: #2B2B2B;
+}

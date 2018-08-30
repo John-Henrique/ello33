@@ -1,0 +1,191 @@
+.icon-logo {
+	text-transform:none;
+}
+
+.floating-label {
+	text-align:center;
+}
+
+.reunioes span.title, .conversas span.title, .clientes span.title  {
+	font-weight:bold;
+	display:block;
+}
+
+/**
+ PRIVADO
+*/
+.conversa .text-left p, .conversa .text-right p {
+	max-width:80%;
+	margin-right:0px;
+	text-align:left;
+}
+.conversa .row .column .grande p, .conversa .row .column .grande {
+	width:100%;
+	max-width:100%;
+	margin-right:0px;
+}
+.conversa .hora {
+	color:gray;
+	display:block;
+}
+a.btn.info {
+    font-size: 14px;
+    padding-top: 12px;
+    padding-left: 0px;
+}
+
+
+/**
+ PERFIL
+*/
+perfil header.header-bar.grande, perfilgrupo header.header-bar.grande {
+    height: 180px;
+    overflow: auto;
+}
+perfil .header-bar a.btn.contato, perfilgrupo .header-bar a.btn.contato {
+    bottom: 0px;
+    position: absolute;
+    height: auto;
+}
+perfil .header-bar~.content, perfilgrupo .header-bar~.content {
+	margin-top:182px;
+}
+.card {
+    background-color: #fff;
+    margin: 4px 0px;
+    border-bottom: 1px solid #c1c1c1;
+    padding: 10px;
+}
+perfil .content, perfilgrupo .content {
+    background-color: #f1f1f1;
+}
+#gmap {
+	width:100%;
+	height:120px;
+}
+
+.icon-telefone:before {
+	content:url('../img/icones/icon-telefone.png' );
+}
+perfil .list li a, perfilgrupo .list li a  {
+	display:initial;
+}
+perfil .list .pull-right, perfil .list .item-expanded .pull-right, perfilgrupo .list .pull-right, perfilgrupo .list .item-expanded .pull-right {
+	width:32px;
+}
+perfil .list li .item-content {
+	padding-left:0px;
+}
+perfil .list .padded-list, perfilgrupo .list .padded-list {
+	padding-left:0px;
+}
+.pedido {
+	padding-right:10px; 
+	width:30px;
+}
+
+
+
+.perfil {
+    width: 30px;
+    border-radius: 50%;
+}
+
+
+/**
+	GRUPO
+*/
+grupo .nome {
+	display: block;
+	font-weight: bold;
+}
+grupo .mensagem .padded-right .texto img {
+	width:100%;
+}
+
+
+/**
+	PERFIL GRUPO
+*/
+perfilgrupo .list .item-expanded .pull-left {
+	width:52px;
+	/*margin-top:15px;*/
+}
+perfilgrupo .list .item-expanded .pull-left .perfil {
+	width:40px;
+}
+perfilgrupo .list li .item-content {
+	padding-left:10px;
+}
+perfilgrupo .list li .body, .list li .title {
+	line-height:21px;
+}
+perfilgrupo .list .item-expanded {
+    height: 60px;
+    line-height: 60px;
+}
+.icon-sair:before {
+	content:url('../img/icones/icon-sair.png' );
+}
+
+/**
+	CONFIGURAÇÕES
+*/
+configuracoes .padded-bottom {
+    margin-bottom: 0px;
+}
+configuracoes .perfil {
+	width:50px;
+    margin-top: 10px;
+}
+.icon-usuario:before {
+	content:url('../img/icones/icon-usuario.png' );
+}
+.icon-compartilhar:before {
+	content:url('../img/icones/icon-adduser.png' );
+}
+.icon-cores:before {
+	content:url('../img/icones/icon-cores.png' );
+}
+.icon-ajuda:before {
+	content:url('../img/icones/icon-ajuda.png' );
+}
+
+/**
+	PERFIL USUARIO
+*/
+perfilusuario .perfil {
+	width:160px;
+}
+
+/**
+	CRIAR CONTATO
+*/
+criarcontato ul li span .campo, contatos .campo {
+	width:80%;
+	padding-left:5px;
+}
+criarcontato .list li {
+	border:none;
+}
+criarcontato header.header-bar.grande {
+    height: 180px;
+    overflow: auto;
+}
+criarcontato .header-bar~.content {
+	margin-top:182px;
+}
+contatos .campo {
+	background-color:transparent !important;
+	border-bottom:2px solid #0067b5;
+	color:#fff;
+}
+::-webkit-input-placeholder {
+   color: #fff;
+}
+/**
+ esconder elementos visuais
+*/
+.esconde, .invisivel {
+	display:none;
+}
